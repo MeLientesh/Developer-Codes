@@ -1,0 +1,21 @@
+def get_faces():
+    faces = input()
+    return faces
+
+def main():
+    faces = get_faces()
+    if faces == "Hello :)":
+        print("Hello 🙂")
+
+    elif faces == "Goodbye :(":
+        print("Goodbye 🙁")
+
+    else:
+        print("Hello 🙂 Goodbye 🙁")
+
+
+
+
+
+
+main()

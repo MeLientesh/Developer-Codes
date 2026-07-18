@@ -1,0 +1,9 @@
+def main():
+    x = int(input("m: "))
+    print("E:", square(x))
+
+
+def square(m):
+    return m * 300000000 * 300000000
+
+main()
