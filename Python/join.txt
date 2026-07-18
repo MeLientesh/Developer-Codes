@@ -1,0 +1,7 @@
+name = input()
+
+process2 = name.split()
+
+result = "...".join(process2)
+
+print (result)
