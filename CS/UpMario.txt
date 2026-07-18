@@ -1,0 +1,27 @@
+#include <cs50.h>
+#include <stdio.h>
+
+int height, space;
+int main(void)
+{   do
+    {
+        height = get_int("What is Height? ");
+    }
+
+    while (height < 1 || height > 8);
+
+    for (int a = 0; a < height; a++)
+    {
+
+        for (space = 0; space < height - a - 1; space++)
+        {
+            printf(" ");
+        }
+
+        for (int sharp = 0; sharp - a + height - 1 < height; sharp++)
+        {
+            printf("#");
+        }
+            printf("\n");
+    }
+}
