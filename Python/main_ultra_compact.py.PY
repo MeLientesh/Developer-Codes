@@ -1,6 +1,4 @@
-"""
-AI Literature Search & Skill Development - Ultra Compact
-Clean, production-ready with full background threading
+""
 """
 
 import tkinter as tk
